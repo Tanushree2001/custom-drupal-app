@@ -1,0 +1,16 @@
+mymodule.page:
+  path: '/mymodule-page'
+  defaults:
+    _title: 'Custom Page Title'
+    _controller: '\Drupal\mymodule\Controller\CustomPageController::content'
+  requirements:
+    _permission: 'access custom page'
+    _role: 'administrator+content_editor'
+    
+mymodule.settings_form:
+  path: '/customform'
+  defaults: 
+    _form: '\Drupal\mymodule\Form\CustomConfigForm'
+    _title: 'Form'
+  requirements:
+    _permission: 'access custom page'
