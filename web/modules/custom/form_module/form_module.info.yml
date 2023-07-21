@@ -1,0 +1,5 @@
+name: 'form module'
+type: module
+description: 'form api ticket'
+package: Custom
+core_version_requirement: ^10

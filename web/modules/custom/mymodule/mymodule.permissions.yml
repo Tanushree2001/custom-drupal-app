@@ -1,0 +1,6 @@
+access custom page:
+  title: 'Access Custom Page'
+  description: 'Allow users to access the custom page provided by the mymodule module'
+# access meta tab:
+#   title: 'Access meta tab'
+#   description: 'Access meta information (author, creation date, boost information) in Meta vertical tab.'
