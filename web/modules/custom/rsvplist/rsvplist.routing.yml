@@ -6,10 +6,18 @@ rsvplist.formdemo:
   requirements:
     _permission: 'access content' 
 
-rsvplist.ajaxformdemo:
-  path: '/ajaxrsvplistdemo'
+# rsvplist.ajaxformdemo:
+#   path: '/ajaxrsvplistdemo'
+#   defaults:
+#     _form: '\Drupal\rsvplist\Form\AjaxRSVPForm'
+#     _title: 'Ajax RSVP to this Event (demo)'
+#   requirements:
+#     _permission: 'access content' 
+
+rsvplist.ajaxform:
+  path: '/ajaxform'
   defaults:
-    _form: '\Drupal\rsvplist\Form\AjaxRSVPForm'
-    _title: 'Ajax RSVP to this Event (demo)'
+    _form: '\Drupal\rsvplist\Form\RsvpForm'
+    _title: 'Ajax RSVPlist form'
   requirements:
-    _permission: 'access content' 
+    _permission: 'access content'
