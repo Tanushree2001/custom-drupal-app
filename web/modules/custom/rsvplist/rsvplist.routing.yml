@@ -21,3 +21,11 @@ rsvplist.content:
     _title: 'Custom Welcome Page'
   requirements:
     _permission: 'access content'
+
+rsvplist.diform:
+  path: '/rsvplistdiform'
+  defaults:
+    _form: '\Drupal\rsvplist\Form\RsvpDependencyForm'
+    _title: 'RSVP in DI'
+  requirements:
+    _permission: 'access content'
