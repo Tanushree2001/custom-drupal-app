@@ -4,7 +4,7 @@ core_version_requirement: ^10
 description: 'Allows users to RSVP for Events.' 
 package: 'RSVP List'
 
-# dependencies:
-#   - drupal:block
+dependencies:
+  - drupal:block
 
-# configure: rsvplist.admin_settings
+configure: rsvplist.admin_settings

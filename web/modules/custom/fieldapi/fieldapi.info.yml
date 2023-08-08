@@ -1,0 +1,8 @@
+name: 'Field API'
+type: module
+core_version_requirement: ^10
+description: 'Allows users to work on Field API' 
+package: 'RSVP List'
+
+dependencies:
+  - drupal:block

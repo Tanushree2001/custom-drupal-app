@@ -1,0 +1,3 @@
+admininster movie entities:
+  title: 'administer movie entities'
+  description: 'Allow users to access the movie entities page provided by the entityapi module'

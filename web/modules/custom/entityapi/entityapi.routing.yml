@@ -1,0 +1,14 @@
+# entityapi.list:
+#   path: '/admin/structure/types/movie'
+#   defaults:
+#     _entity_list: 'movie'
+#   requirements:
+#     _permission: 'administer movie entities'
+
+# entityapi.add:
+#   path: '/node/add/movie'
+#   defaults:
+#     _form: '\Drupal\entityapi\Form\EntityapiForm'
+#     _title: 'Add Movie'
+#   requirements:
+#     _permission: 'create movie entities'
