@@ -1,0 +1,23 @@
+rsvplist.formdemo:
+  path: '/rsvplistdemo'
+  defaults:
+    _form: '\Drupal\rsvplist\Form\RSVPForm'
+    _title: 'RSVP to this Event (demo)'
+  requirements:
+    _permission: 'access content' 
+
+# rsvplist.ajaxformdemo:
+#   path: '/ajaxrsvplistdemo'
+#   defaults:
+#     _form: '\Drupal\rsvplist\Form\AjaxRSVPForm'
+#     _title: 'Ajax RSVP to this Event (demo)'
+#   requirements:
+#     _permission: 'access content' 
+
+rsvplist.content:
+  path: '/custom-welcome-page'
+  defaults:
+    _controller: '\Drupal\rsvplist\Controller\RsvplistController::Content'
+    _title: 'Custom Welcome Page'
+  requirements:
+    _permission: 'access content'

@@ -1,0 +1,9 @@
+name: 'Custom Practise drupal module'
+type: module
+core_version_requirement: ^10
+description: 'Code to spark my module development understanding'
+package: 'Module dev course'
+dependencies: 
+  - drupal:views
+  # - token: node_tokens
+configure: mymodule.settings_form

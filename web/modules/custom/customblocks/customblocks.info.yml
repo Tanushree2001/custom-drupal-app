@@ -1,0 +1,7 @@
+name: 'Custom Blocks module'
+type: module
+core_version_requirement: ^10
+description: 'Code for custom blocks and plugins'
+package: 'Module dev course'
+dependencies: 
+  - drupal:views
